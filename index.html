@@ -5,33 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title id>Daniel Alwin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+    <title>Daniel Alwin</title>
 </head>
 <body>
     <!--ADD Navigation bar-->
+    <ul class="nav-bar">
+        <li><a href="default.asp">Main</a></li>
+        <li><a href="news.asp">My Work</a></li>
+        <li><a href="contact.asp">Socials</a></li>
+        <li><a href="about.asp">Contact</a></li>
+    </ul>
 
     <!--Main header container-->
-    <div class="main-header"><h1>DANIEL ALWIN, DEVELOPER</h1></div>    
+    <div class="main-header"><h1>DANIEL ALWIN, <br> DEVELOPER</h1></div>
 
     <!--About Me section-->
-    <div class="about-me-section"> 
-        <h2>About Me</h2>
-        <p>
+    <div> 
+        <h2 class="secondary-header">About Me</h2>
+        <p class="about-me-paragraph">
             I'm Daniel Alwin, currently pursuing my Diploma in Computer Science at Universiti Teknologi MARA. 
         </p>
     </div>
 
-    <!--Section for my education--->
+    <!--Section for my projects--->
     <div class="segments-container">
-        <h2 class="explore-text">Explore</h2>
-        <a class="w3-button w3-black" href="edupage.html">My Education</a> <br>
-        <a class="w3-button w3-black" href="webdevelopment.html">Web Development</a> <br>
+        <h2 class="secondary-header">My Work</h2>
+        <div class="mywork-buttons">
+            <a class="w3-button" href="webdevelopment.html">Web Development</a> <br>
+        </div>
     </div>
-
-    <!--Section for all my projects-->
-    <div id="section-3" class="my-work-section">
-        <h2>My Work</h2>
-    </div>
-
 </body>
 </html>
