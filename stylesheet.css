@@ -1,28 +1,52 @@
-ul {
-    display:flex;
-    list-style-type: none;
-    margin: 5;
-    padding: 0;
-}
-
 .nav-bar {
-    margin: 15px;;
+    display: flex;
+    height:5%;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-top:1px;
 }
 
-.main-header h1{
-    font-family:'Lora', sans-serif;
-    font-size:100px;
+.nav-button {
+    background-color: #000000;
+    border-radius:25px;
 }
 
-.main-header{
+.nav-button li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    color:rgb(0, 0, 0);
+    margin:10px;
+    margin-bottom: 0px;
+}
+
+.main-header {
     display: flex;
     background-color: rgb(0, 0, 0);
-    color:rgb(182, 182, 164);
+    margin-bottom: 0px;
     height: 100vh;
-    justify-content:left;
+    flex-direction: column;
+    justify-content:center;
 }
 
-.secondary-header{
+.main-header h1 {
+    display:flex;
+    margin:10px;
+    font-family:'Lora', sans-serif;
+    color:rgb(182, 182, 164);
+    font-size:100px;
+}
+.main-header h2 {
+    display:flex;
+    margin:10px;
+    font-family:'Lora', sans-serif;
+    color:rgb(182, 182, 164);
+    font-size:30px;
+}
+
+/*Applies to About Me, My Work, My Contacts */
+.secondary-header {
     color:beige;
     font-family:'Lora', sans-serif;
     font-size: 40px;
@@ -32,15 +56,12 @@ ul {
     margin-bottom:3px;
 }
 
-.about-me-paragraph{
-    display:flex;
+.about-me-paragraph {
     font-family:'Lora', sans-serif;
     font-size:25px;
     color:rgb(0, 0, 0);
-    background-color: rgb(182, 182, 164);
-    height: 50vh;
-    margin-top:3px;
-    margin-bottom:3px;
+    background-color: rgb(152, 152, 125);
+    display:flex;
 }
 
 .w3-button{
