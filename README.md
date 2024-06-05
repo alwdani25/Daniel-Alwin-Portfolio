@@ -1,2 +1,2 @@
 # Daniel Alwin's Portfolio
- My portfolio website project consisting of HTML, CSS, and JS
+ My portfolio website to showcase my web design, software development, and graphic design work.
