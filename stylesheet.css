@@ -24,7 +24,6 @@ p {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  background-color: rgb(12, 12, 15);
   justify-content: center;
 }
 .intro-section {
@@ -34,27 +33,30 @@ p {
 }
 .name {
   display: flex;
-  color: rgb(237, 237, 226);
-  font-family: "Montserrat";
+  color: rgb(241, 241, 237);
+  font-family: "Montserrat", sans-serif;
   font-size: 70px;
 }
-
 .bio {
   display: flex;
   font-size: larger;
   color:rgb(235, 235, 235);
 }
-
 .nav-bars {
   list-style-type: none;
   display: flex;
   flex-direction: column;
 }
-
-.section-bar {
+.section-button {
   border: none;
   padding: 5px;
+  width: 100vw;
   margin-bottom:10px;
-  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
   text-align: start;
+}
+.socials {
+  color:white ;
+  height: 50px;
 }
